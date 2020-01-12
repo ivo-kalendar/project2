@@ -1,25 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
 body {
-	background-color: #444;
+	background-color: hsl(120, 60%, 70%);
 	margin: 0;
-}
-
-.profile {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	flex-flow: column;
-}
-
-img {
-	border-radius: 20%;
-	width: 300px;
-	box-shadow: 0 0 20px rgba(255, 255, 255, .5);
+	font-family: 'Quicksand', sans-serif;
+	text-align: center;
 }
 
 h1 {
 	color: #fff;
-	font-size: 3em;
-	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-	text-shadow: 0 0 20px rgba(255, 255, 255, .4);
+	font-size: 5em;
+	text-shadow: 0 0 20px rgba(0, 0, 0, .7);
 }

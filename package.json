@@ -1,7 +1,7 @@
 {
-  "name": "webpackStarterSetUp",
+  "name": "project2",
   "version": "1.0.0",
-  "description": "Basic Webpack setup",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "babel-core": "^6.26.3",
@@ -12,6 +12,9 @@
     "babel-polyfill": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^3.4.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "ejs-webpack-loader": "^2.2.2",
     "express": "^4.17.1",
     "extract-loader": "^3.1.0",
     "file-loader": "^5.0.2",
