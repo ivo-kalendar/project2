@@ -47,16 +47,16 @@ module.exports = {
 		]
 	},
 	plugins: [
-		new webpack.HotModuleReplacementPlugin()
-		// new HTMLWebpackPlugin({
-		// 	template: "!!ejs-webpack-loader!src/views/index.ejs",
-		// 	inject: false
-		// })
+		new webpack.HotModuleReplacementPlugin(),
+		new HTMLWebpackPlugin({
+			template: "!!ejs-webpack-loader!src/views/index.ejs",
+			inject: false
+		}),
 
 
-		// new HTMLWebpackPlugin({
-		// 	template: "./src/views/index.ejs",
-		// 	inject: false
-		// })
+		new HTMLWebpackPlugin({
+			template: "./src/views/index.ejs",
+			inject: false
+		})
 	]
 }
