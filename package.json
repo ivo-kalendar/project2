@@ -31,7 +31,7 @@
     "babel-cli": "^6.26.0"
   },
   "scripts": {
-    "start": "webpack-dev-server --config=config/webpack.dev.js",
+    "start": "node src/server/main.js --config=config/webpack.dev.js",
     "build": "webpack --config=config/webpack.dev.js",
     "dev": "nodemon --watch config --watch src/server src/server/main.js"
   },
