@@ -36,10 +36,10 @@ module.exports = {
 				test: /\.jpg$/,
 				use: [{ loader: "file-loader", options: { name: "images/[name].[ext]" } }]
 			},
-			{
-	            test: /\.ejs$/,
-	            use: [{ loader: "ejs-webpack-loader"}]
-	        },
+			// {
+	  //           test: /\.ejs$/,
+	  //           use: [{ loader: "ejs-webpack-loader"}]
+	  //       },
 			{
 				test: /\.html$/,
 				use: [{ loader: "html-loader" }]
@@ -48,10 +48,10 @@ module.exports = {
 	},
 	plugins: [
 		new webpack.HotModuleReplacementPlugin(),
-		new HTMLWebpackPlugin({
-			template: "!!ejs-webpack-loader!src/views/index.ejs",
-			inject: false
-		}),
+		// new HTMLWebpackPlugin({
+		// 	template: "!!ejs-webpack-loader!src/views/index.ejs",
+		// 	inject: false
+		// }),
 
 
 		new HTMLWebpackPlugin({
