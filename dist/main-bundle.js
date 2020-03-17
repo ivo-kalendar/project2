@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "10100ec91fde695ae703";
+/******/ 	var hotCurrentHash = "5eda78a5f85d55985104";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -1043,7 +1043,7 @@ eval("var api = __webpack_require__(/*! ../node_modules/style-loader/dist/runtim
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\n__webpack_require__(/*! babel-runtime/regenerator */ \"./node_modules/babel-runtime/regenerator/index.js\");\n__webpack_require__(/*! webpack-hot-middleware/client?reload=true */ \"./node_modules/webpack-hot-middleware/client.js?reload=true\");\n__webpack_require__(/*! ./main.css */ \"./src/main.css\");\n// require(\"./images/link.jpg\")\n\n//# sourceURL=webpack:///./src/main.js?");
+eval("\n\n__webpack_require__(/*! babel-runtime/regenerator */ \"./node_modules/babel-runtime/regenerator/index.js\");\n__webpack_require__(/*! webpack-hot-middleware/client?reload=true */ \"./node_modules/webpack-hot-middleware/client.js?reload=true\");\n__webpack_require__(/*! ./main.css */ \"./src/main.css\");\n// require(\"./images/link.jpg\")\nconsole.log(123);\n\n//# sourceURL=webpack:///./src/main.js?");
 
 /***/ }),
 

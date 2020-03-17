@@ -36,10 +36,10 @@ module.exports = {
 				test: /\.jpg$/,
 				use: [{ loader: "file-loader", options: { name: "images/[name].[ext]" } }]
 			},
-			// {
-	  //           test: /\.ejs$/,
-	  //           use: [{ loader: "ejs-webpack-loader"}]
-	  //       },
+			{
+	            test: /\.ejs$/,
+	            use: [{ loader: "ejs-webpack-loader"}]
+	        },
 			{
 				test: /\.html$/,
 				use: [{ loader: "html-loader" }]
@@ -55,8 +55,8 @@ module.exports = {
 
 
 		new HTMLWebpackPlugin({
-			template: "./src/views/index.ejs",
-			inject: false
+			template: "./src/views/index.ejs"
+			// inject: false
 		})
 	]
 }
